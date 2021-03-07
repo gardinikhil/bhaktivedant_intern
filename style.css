@@ -1,0 +1,43 @@
+
+/*  import google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap');
+html,body{
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+    font-family: 'Akaya Kanadaka', cursive;
+}
+
+.navbar{
+    border-bottom: 2px solid;
+}
+.home
+{
+    background-image: url('./images/8.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+.heading{
+    border-bottom: 3px solid;
+    width: 150px;
+}
+.btn{
+    padding: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-weight: 900;
+    border: 1px solid red;
+}
+ul.no-bullets {
+    list-style-type: none; /* Remove bullets */
+    margin: 0; /* Remove margins */
+    font-weight: 700;
+  }
+  .btny{
+      margin-left: 40px;
+  }
+  .navbar-brand{
+      font-size:medium;
+  }
